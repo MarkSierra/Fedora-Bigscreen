@@ -1,0 +1,14 @@
+[Unit]
+Description=Autologin Setup (First Boot)
+# Muss ausgeführt werden, bevor der Login-Manager startet
+Before=display-manager.service
+# Führt den Dienst nur aus, wenn die Konfig-Datei noch nicht existiert
+ConditionPathExists=!/etc/plasmalogin.conf.d/10-autologin.conf
+
+[Service]
+Type=oneshot
+ExecStart=/usr/libexec/setup-tv-autologin.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
