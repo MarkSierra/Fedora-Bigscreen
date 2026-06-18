@@ -27,6 +27,7 @@ modules:
     install:
       packages:
         - plasma-bigscreen
+        - plasma-bigscreen-wayland
         - libcec
     remove:
       packages:
