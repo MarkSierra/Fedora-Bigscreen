@@ -1,4 +1,4 @@
-# Fedora-Bigscreen &nbsp; [![bluebuild build badge](https://github.com/marksierra/fedora-bigscreen/actions/workflows/build.yml/badge.svg)](https://github.com/marksierra/fedora-bigscreen/actions/workflows/build.yml)
+# BigOpenScreen &nbsp; [![bluebuild build badge](https://github.com/marksierra/fedora-bigscreen/actions/workflows/build.yml/badge.svg)](https://github.com/marksierra/fedora-bigscreen/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
