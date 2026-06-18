@@ -27,7 +27,6 @@ modules:
     install:
       packages:
         - plasma-bigscreen
-        - cec-utils
         - libcec
     remove:
       packages:
